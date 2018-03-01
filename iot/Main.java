@@ -10,7 +10,7 @@ public class Main {
 
 		StringProcessor stringProcessor = new StringProcessor();
 		String userText = stringProcessor.readInputText();
-		stringProcessor.processText(userText);
+		stringProcessor.processText( userText);
 
 		System.out.println("\nDone..");
 	}
